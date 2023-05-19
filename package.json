@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx run is-even"
+    "prep": "npm run format",
+    "format": "prettier -w ./ --ignore-path .prettierignore"
   },
   "private": true,
   "devDependencies": {
