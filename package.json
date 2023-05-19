@@ -2,12 +2,15 @@
   "name": "package-based",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx run is-even"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "nx": "16.2.1",
-    "nx-cloud": "latest"
+    "nx-cloud": "latest",
+    "prettier": "^2.6.2",
+    "typescript": "^5.0.4"
   },
   "workspaces": [
     "packages/*"
